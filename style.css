@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2px;
+}
+
+.container div{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.on{
+    background-color: chocolate;
+}
